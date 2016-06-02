@@ -9,6 +9,8 @@ gulp.task('bundle', function(){
         sourceMap: true,
         // output format - 'amd', 'cjs', 'es6', 'iife', 'umd'
         // wiki https://github.com/rollup/rollup/wiki/JavaScript-API
+        // 一个例子
+        // http://www.open-open.com/lib/view/open1456569458625.html
         format: 'amd'
     }))
     // .pipe(sourcemaps.write("."))

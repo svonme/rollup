@@ -20,6 +20,8 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rollup": "^1.9.0",
-    "gulp-sourcemap": "^1.0.1"
+    "gulp-sourcemap": "^1.0.1",
+    "rollup-plugin-commonjs": "^2.2.1",
+    "rollup-plugin-node-resolve": "^1.5.0"
   }
 }

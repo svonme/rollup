@@ -1,0 +1,25 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "rollup 练习",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --registry=http://registry.npm.taobao.org/ --disturl=https://npm.taobao.org/dist",
+    "test": "gulp bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svonme/rollup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svonme/rollup/issues"
+  },
+  "homepage": "https://github.com/svonme/rollup#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rollup": "^1.9.0",
+    "gulp-sourcemap": "^1.0.1"
+  }
+}

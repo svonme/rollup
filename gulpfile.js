@@ -6,8 +6,12 @@ var gulp       = require('gulp'),
 gulp.task('bundle', function(){
   gulp.src('src/main.js', {read: false})
     .pipe(rollup({
-        sourceMap: true
+        sourceMap: true,
+        // output format - 'amd', 'cjs', 'es6', 'iife', 'umd'
+        // wiki https://github.com/rollup/rollup/wiki/JavaScript-API
+        format: 'amd'
     }))
     // .pipe(sourcemaps.write("."))
     .pipe(gulp.dest('dist'));
 });
+

@@ -11,7 +11,7 @@ gulp.task('bundle', function(){
         // wiki https://github.com/rollup/rollup/wiki/JavaScript-API
         // 一个例子
         // http://www.open-open.com/lib/view/open1456569458625.html
-        format: 'amd'
+        format: 'cjs'
     }))
     // .pipe(sourcemaps.write("."))
     .pipe(gulp.dest('dist'));
